@@ -7,11 +7,11 @@ body {background-color:black;}
     height: 430px;
     position: absolute;
     overflow: auto;  
-    font-size: 50px;
+    font-size: 80px;
     background-color:pink;
     left: 7vh;
     z-index: -1;
-    top: 40px
+    top: 40px; overflow-y: scroll;
 }
 #frame { width: 500px;
     z-index: 1;
@@ -24,4 +24,5 @@ img {pointer-events:none;}
 a {font-size: 16pt;
     color: coral;}
     
+
 
