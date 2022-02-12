@@ -1,0 +1,23 @@
+body {background-color:black;}
+#container {position: absolute;
+    left: 70vh;
+    top: 40px}
+#box {
+    width: 430px;
+    height: 430px;
+    position: absolute;
+    overflow: auto;  
+    font-size: 50px;
+    background-color:pink;
+    left: 7vh;
+    z-index: -1;
+    top: 40px
+}
+#frame { width: 500px;
+    z-index: 1;
+    position: absolute;
+    left: 0vh;
+    top: 30px}
+
+img {pointer-events:none;}
+
